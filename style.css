@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+}
+
+span{
+    background: url(heart.png);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    /* This is to negate the position of the image from the left corner and positions it exactly in the middle of the page. */
+    transform: translate(-50%, -50%);
+}
